@@ -1,7 +1,7 @@
 .background.gradient {
   background: #50a3a2;
-  background: -webkit-linear-gradient(top left, #50a3a2 0, #78cc6d 100%);
-  background: linear-gradient(to bottom right, #50a3a2 0, #78cc6d 100%);
+  background: -webkit-linear-gradient(top left, #000000 0, #23cbed 100%);
+  background: linear-gradient(to bottom right, #000000 0, #23cbed 100%);
 }
 .blog-content ul > li:before,
 .button:hover .arrow:after,
@@ -94,7 +94,7 @@
 .woocommerce input.button.alt:hover,
 .woocommerce span.onsale,
 .woocommerce ul.products li.product .button.add_to_cart_button.added {
-  background: #78cc6d;
+  background: #23cbed;
 }
 .blog-content p a,
 .box-item .date,
@@ -171,13 +171,13 @@ a:hover,
 input:focus,
 strong.woocommerce-review__author,
 textarea:focus {
-  color: #78cc6d;
+  color: #23cbed;
 }
 .content .title .first-word,
 .content .title:first-letter,
 .content-sidebar h2.widget-title .first-word,
 .content-sidebar h2.widget-title:first-letter {
-  color: #78cc6d !important;
+  color: #23cbed !important;
 }
 .box-item .image .info:before,
 .card-started .profile .image:before,
@@ -186,34 +186,34 @@ textarea:focus {
 .content-sidebar h2.widget-title:before {
   background: -moz-linear-gradient(
     -45deg,
-    rgba(120, 204, 109, 0.15) 0,
+    #23cbedad 0,
     rgba(120, 204, 109, 0.01) 100%
   );
   background: -webkit-linear-gradient(
     -45deg,
-    rgba(120, 204, 109, 0.15) 0,
+    #23cbedad 0,
     rgba(120, 204, 109, 0.01) 100%
   );
   background: linear-gradient(
     135deg,
-    rgba(120, 204, 109, 0.15) 0,
+    #23cbedad 0,
     rgba(120, 204, 109, 0.01) 100%
   );
 }
 .card-started:after {
   background: -moz-linear-gradient(
     -45deg,
-    rgba(120, 204, 109, 0.4) 0,
+    #23cbedad 0,
     rgba(120, 204, 109, 0.01) 100%
   );
   background: -webkit-linear-gradient(
     -45deg,
-    rgba(120, 204, 109, 0.4) 0,
+    #23cbedad 0,
     rgba(120, 204, 109, 0.01) 100%
   );
   background: linear-gradient(
     135deg,
-    rgba(120, 204, 109, 0.4) 0,
+    #23cbedad 0,
     rgba(120, 204, 109, 0.01) 100%
   );
 }
@@ -239,7 +239,7 @@ textarea:focus {
   background-color: rgba(120, 204, 109, 0.1);
 }
 .pricing-items .pricing-item .feature-list ul li strong {
-  background: rgba(120, 204, 109, 0.15);
+  background: #23cbedad;
 }
 .box-item .date,
 .content-sidebar .tagcloud a,
@@ -305,22 +305,22 @@ textarea:focus {
 .skills-list.circles .progress.p99 .fill,
 input:focus,
 textarea:focus {
-  border-color: #78cc6d;
+  border-color: #23cbed;
 }
 .preloader .spinner.recursive-circle,
 .preloader .spinner.recursive-circle:after {
-  border-color: transparent #78cc6d #78cc6d;
+  border-color: transparent #23cbed #23cbed;
 }
 blockquote {
-  border-left-color: #78cc6d;
+  border-left-color: #23cbed;
 }
 .preloader .spinner.simple-circle {
-  border-right-color: #78cc6d;
+  border-right-color: #23cbed;
 }
 .preloader .spinner.quantum-spinner,
 .preloader .spinner.quantum-spinner:after,
 .preloader .spinner.quantum-spinner:before {
-  border-top-color: #78cc6d;
+  border-top-color: #23cbed;
 }
 .content .title {
   color: #323232;

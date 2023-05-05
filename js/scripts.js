@@ -663,42 +663,45 @@ function initMap() {
 
 } )( jQuery );
 
-$(document).ready(function(){
-function change_posi(){
-	// console.log('ok');
-	// var row1= $(this).parent('div');
-	// console.log($(this).attr('class'));
-	var class1 = 'align-right';
-	var class2 = 'align-left';
-	var class3 = $(this).attr('class');
-	if (class1 == class3) {
-		// debugger
-		$(this).attr('class',class2)
-		$('#form-submit1').off('mouseenter',change_posi);
-		$('#form-submit1').on('mouseenter',change_posi);
-		$('#form-submit1').off('click',change_posi);
+// $(document).ready(function(){
+// function change_posi(){
+// 	// console.log('ok');
+// 	// var row1= $(this).parent('div');
+// 	// console.log($(this).attr('class'));
+// 	var class1 = 'align-right';
+// 	var class2 = 'align-left';
+// 	var class3 = $(this).attr('class');
+// 	if (class1 == class3) {
+// 		// debugger
+// 		$(this).attr('class',class2)
+// 		$('#form-submit1').off('mouseenter',change_posi);
+// 		$('#form-submit1').on('mouseenter',change_posi);
+// 		$('#form-submit1').off('click',change_posi);
 		
-		$('#form-submit1').on('click ',change_posi);
-	}
-	if (class2 == class3) {
-		// debugger
-		$(this).attr('class',class1)
-		$('#form-submit1').off('mouseenter',change_posi);
-		$('#form-submit1').on('mouseenter ',change_posi);
-		$('#form-submit1').off('click ',change_posi);
+// 		$('#form-submit1').on('click ',change_posi);
+// 	}
+// 	if (class2 == class3) {
+// 		// debugger
+// 		$(this).attr('class',class1)
+// 		$('#form-submit1').off('mouseenter',change_posi);
+// 		$('#form-submit1').on('mouseenter ',change_posi);
+// 		$('#form-submit1').off('click ',change_posi);
 		
-		$('#form-submit1').on('click ',change_posi);
-	}
+// 		$('#form-submit1').on('click ',change_posi);
+// 	}
 
-};
-$('#form-submit1').on('mouseenter',change_posi);
-$('#form-submit1').on('click ',change_posi);
-});
+// };
+// $('#form-submit1').on('mouseenter',change_posi);
+// $('#form-submit1').on('click ',change_posi);
+// });
 // $('.edit_faq').on('click',edit_faq);
 
 
  /*----------- 00. Right Click Disable ----------*/
-    //   window.addEventListener('contextmenu', function (e) {
-    //     this.alert('Sorry But Not Sorry')
-    //     e.preventDefault();
-    //   }, false);
+      window.addEventListener('contextmenu', function (e) {
+        this.alert('Hi I am Samir. Want to view the code? Hit me up');
+		window.location.hash="#contacts-card";
+		this.location.reload();
+        e.preventDefault();
+		
+      }, false);

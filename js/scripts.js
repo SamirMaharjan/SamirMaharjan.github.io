@@ -1,8 +1,3 @@
-/*
-*   Author: bslthemes
-*   Author URL: http://themeforest.net/user/bslthemes
-*   Version: 2.7
-*/
 
 
 /*
@@ -705,3 +700,19 @@ function initMap() {
         e.preventDefault();
 		
       }, false);
+
+	  $(window).on('devtoolschange', function (e) {
+		if (e.detail.isOpen) {
+		  // Dev tools are open, take action to prevent their use
+		  $('body').css('-webkit-user-select', 'none'); // Disable text selection
+		  $('body').css('-moz-user-select', 'none');
+		  $('body').css('-ms-user-select', 'none');
+		  $('body').css('user-select', 'none');
+		  $(document).on('contextmenu', function (e) { // Disable context menu
+			this.alert('Hi I am Samir. Want to view the code? Hit me up');
+		window.location.hash="#contacts-card";
+		this.location.reload();
+        e.preventDefault();
+		  });
+		}
+	  });
